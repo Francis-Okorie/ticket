@@ -124,9 +124,14 @@ function updateSubtotal () {
 
 let savedVipcount = parseInt(localStorage.getItem("vipCount"));
 let savedRegcount = parseInt(localStorage.getItem("regularCount"));
-counter.textContent = savedRegcount;
-vipCounter.textContent = savedVipcount;
-updateSubtotal();
+
+if (!isNaN(savedVipcount) && !isNaN(savedRegcount)) {
+    counter.textContent = savedRegcount;
+    vipCounter.textContent = savedVipcount;
+    updateSubtotal();
+} else {
+    console.log("Values are not available or not valid numbers in local storage.");
+}
 
 console.log(savedVipcount);
 
