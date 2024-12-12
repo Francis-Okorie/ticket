@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="google-site-verification" content="sY4r1PjZrxTAkPFUbUp4YrajviC9rxXhtPUAexluXW0" />
+    <meta name="description" content="ASAP THE DJ official website. Visit for the latest news, tour dates, browse the photo gallery, listen to ASAP THE DJ's music and watch videos.">
+    <meta name="keywords" content="ASAP THE DJ, ASAPTHEDJ, DJ ASAP, ASAP THE DJ, ASAP THE DJ MUSIC, asap the dj, asapthe dj">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./images/favicon-16x16.png" type="image/x-icon">
+    <title>ASAP THE DJ | INTERNATIONAL DJ</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet"> 
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<link rel="stylesheet" href="style.css">
+<script src="script.js" defer></script>
+</head>
+<body>
+    <div class="navigator flex container">
+        <div class="main-logo" data-aos="fade-right" data-aos-duration="4000">
+            <a href="index.html"><img class="logo-record" src="./images/ASAP logo.png" alt=""></a>
+        </div>
+
+        <div class="dividerule flex">
+            <div class="extra-btn" data-aos="fade-right" data-aos-duration="4000">
+                <audio id="audio" src="./images/Dj_Asap.mp3"></audio>
+                <button id="playpause" class="slider-sm play-btn" onclick="playPause();">PLAY &#9658;</button>
+            </div>
+
+            <div class="mobile-toggle button-three dont" aria-controls="primary-navigation" aria-expanded="false" data-aos="fade-right" data-aos-duration="4000">
+                <svg stroke="#ffffff" fill="none" class="hamburger" viewBox="-10 -10 100 100" width="55">
+                    <path class="line" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" d="m 20 40 h 60 a 1 1 0 0 1 0 20 h -60 a 1 1 0 0 1 0 -40 h 30 v 70">
+                    </path>
+                </svg>
+            </div>
+        </div>
+        <div class="menu" data-visible="false">
+            <div id="nav-item">
+              <ul>
+                    <div class="sm-link flex" data-aos="fade-right" data-aos-duration="4000">
+                        <a href="epk.html"><span>01</span>BIO</a>
+                        <a href="music.html"><span>02</span> MUSIC</a>
+                        <a href="video.html"><span>03</span>VIDEOS</a>
+                        <a href="ticket.html"><span>04</span>BEATS ON THE BLOCK</a>
+                        <a href="https://drive.google.com/file/d/13viXvC1pqif9KuE8fRieiLPqWccugE4c/view?usp=sharing"><span>05</span>MIXTAPE</a>
+                        <div class="follow-tag">
+                            <div class="follow-img">
+                                <a href="https://www.tiktok.com/@asapthedj"><img src="./images/tiktok.svg" alt=""></a>
+                                <a href="https://www.facebook.com/asapthedj"><img src="./images/facebook.svg" alt=""></a>
+                                <a href="https://www.instagram.com/asapthedj?igsh=ZGdibnpnZGlvb29t"><img src="./images/instagram.svg" alt=""></a>
+                                <a href="https://www.twitter.com/asapthedj"><img src="./images/twitter-x.svg" alt=""></a>
+                                <a href="https://www.youtube.com/@ASAPtheDJ"><img src="./images/youtube.svg" alt=""></a>
+                                <a href="https://www.youtube.com/redirect?event=channel_header&redir_token=QUFFLUhqbGdzSmc2MDRIN3lUdkRFYWUyRTU5alBuV204d3xBQ3Jtc0trZlJISVZ3c2hJc1E1Qm9BVHFIZzFpdXhSRXd1a2tkcjJNQlRuM2MxMUczelU1Y0xrc2FGdWJsdVExTlNIdkxsdHZ6Q3prZlNVMi1uemRJTzUtRmRjeFZwZUpsWUpLd1g3YjNJMWdaekgtQldweFVyWQ&q=https%3A%2F%2Fsoundgenie.fanlink.to%2FYOLO"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-spotify" viewBox="0 0 16 16">
+                                    <path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0m3.669 11.538a.5.5 0 0 1-.686.165c-1.879-1.147-4.243-1.407-7.028-.77a.499.499 0 0 1-.222-.973c3.048-.696 5.662-.397 7.77.892a.5.5 0 0 1 .166.686m.979-2.178a.624.624 0 0 1-.858.205c-2.15-1.321-5.428-1.704-7.972-.932a.625.625 0 0 1-.362-1.194c2.905-.881 6.517-.454 8.986 1.063a.624.624 0 0 1 .206.858m.084-2.268C10.154 5.56 5.9 5.419 3.438 6.166a.748.748 0 1 1-.434-1.432c2.825-.857 7.523-.692 10.492 1.07a.747.747 0 1 1-.764 1.288"/>
+                                  </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+              </ul>
+            </div>
+          </div>
+    </div>
+
+    <div class="ticket-descrption container flex">
+      <div class="ticket-cover-img">
+        <img src="./images/coover.jpg" alt="">
+      </div>
+      <div class="ticket-cover-header ">
+        <p>PARTY</p>
+        <h1>BEATS ON THE BLOCK</h1>
+        <h3>
+          Get Ready for the Hottest Block Party in Lagos!
+        </h3>
+        <h6>Beats on the Block - Live in Lagos is set to take over the streets with unstoppable energy and vibes!</h6>
+      </div>
+    </div>
+
+    <div class="ticket container">
+      <!--<div class="ticket-header">
+        <p>Don’t miss out!</p>
+        <h1>Get your ticket now</h1>
+      </div>-->
+
+      <div class="date-location">
+        <div>
+          <div class="st-table flex">
+            <h2 class="s-table ">
+              <span class="big-c"><img src="./images/location date 1.png" alt=""> Start Date</span>
+              <span class="small-c cp">28/12/2024</span>
+            </h2>
+            <h2 class="t-table ">
+              <span class="big-c"><img src="./images/location date2.png" alt=""> Time</span>
+              <span class="small-c tp">5:00 PM</span>
+            </h2>
+          </div>
+        </div>
+      </div>
+      
+      <div class="ticket-img">
+        <img src="./images/ticket-dj.png" alt="">
+      </div>
+      <div class="ticket-list ">
+        <div class="ticket-list-content">
+          <div class="tl-header">
+            <h1>Ticket Pricing</h1>
+            <p>Beat On The Block In Lagos</p>
+          </div>
+        </div>
+        <div class="regular">
+          <div class="price-text">
+            <h1 class="t-header-text">EARLY BIRD</h1>
+            <div class="ticket-amount flex">
+              <h2>NGN</h2>
+              <h2 class="reg-amount">7500</h2>
+            </div>
+          </div>
+          <div class="price-counter">
+            <h1 class="minus signs">-</h1>
+            <h1 class="num calc">0</h1>
+            <h1 class="plus signs">+</h1>
+          </div>
+          
+        </div>
+        <div class="vip">
+          <div class="price-text">
+            <h1 class="t-header-text">STAGE ACCESS</h1>
+            <div class="ticket-amount flex">
+              <h2>NGN</h2>
+              <h2 class="vip-amount">20000</h2>
+            </div>
+          </div>
+          <div class="price-counter">
+            <h1 class="minus signs">-</h1>
+            <h1 class="num calc">0</h1>
+            <h1 class="plus signs">+</h1>
+          </div>
+          
+        </div>
+        <div class="total">
+          <h3>TOTAL</h3>
+          <h3 class="ticket-total-amount">0</h3>
+        </div>
+
+        <div class="buy-ticket-btn">
+          <a href="payform.html">
+            <button>PURCHASE TICKET</button>
+          </a>
+        </div>
+      </div>
+
+      <div class="location-content">
+        <h1>Event Location</h1>
+        <div class="container loc">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.7544129095654!2d3.6003684735876305!3d6.425590924296298!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103bf9f2aff05bbf%3A0x4f70af5d7dce2580!2sConey%20Island%20Lagos!5e0!3m2!1sen!2sng!4v1733929694720!5m2!1sen!2sng" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+
+      <div class="wtlf container"> 
+        <div class="wtlf-header">
+          <h1>What to look forward to?</h1>
+        </div>
+
+        <div class="wtlf-content">
+          <div class="wtlf-content-1">
+            <div class="wtlf-content-img">
+              <img src="./images/IMG-20240301-WA0026.jpg" alt="">
+            </div>
+            <div class="wtlf-content-text">
+              <h2>Live Music & Top DJ on Deck</h2>
+              <p>
+                Feel the beat and let loose as the rhythm takes over. Our lively atmosphere and pulsating music will have you grooving all night long.
+              </p>
+            </div>
+          </div>
+
+
+          <div class="wtlf-content-1">
+            <div class="wtlf-content-img">
+              <img src="./images/IMG-20240301-WA0010.jpg" alt="">
+            </div>
+            <div class="wtlf-content-text">
+              <h2>Street Vibes & FUN</h2>
+              <p>
+                Enjoy electrifying performances by some of the best artists and bands. Whether you're a fan of pop, rock, jazz, or soul, we’ve got you covered with a lineup that will leave you in awe.
+              </p>
+            </div>
+          </div>
+
+
+          <div class="wtlf-content-1">
+            <div class="wtlf-content-img">
+              <img src="./images/IMG-20240301-WA0012.jpg" alt="">
+            </div>
+            <div class="wtlf-content-text">
+              <h2>CONNECTION</h2>
+              <p>
+                Share the moment with fellow music lovers as you bond over your favorite tunes and create memories that spark joy. It’s not just a concert; it’s a community!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+    <footer class="footer-header">
+        <div class="footer container" data-aos="fade-down" data-aos-duration="4000">
+           
+            <div class="no-option">
+                <div class="link">
+                    <h3>LINKS</h3>
+                    <a href="epk.html">BIO</a>
+                    <a href="music.html">MUSIC</a>
+                    <a href="video.html">VIDEOS</a>
+                    <a href="ticket.html">BEATS ON THE BLOCK</a>
+                    <a href="#">SHOP</a>
+                </div>
+                <div class="follow-img flex">
+                    <a href="https://music.apple.com/us/artist/asapthedj/1705512216">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-music-note-beamed" viewBox="0 0 16 16">
+                            <path d="M6 13c0 1.105-1.12 2-2.5 2S1 14.105 1 13s1.12-2 2.5-2 2.5.896 2.5 2m9-2c0 1.105-1.12 2-2.5 2s-2.5-.895-2.5-2 1.12-2 2.5-2 2.5.895 2.5 2"/>
+                            <path fill-rule="evenodd" d="M14 11V2h1v9zM6 3v10H5V3z"/>
+                            <path d="M5 2.905a1 1 0 0 1 .9-.995l8-.8a1 1 0 0 1 1.1.995V3L5 4z"/>
+                        </svg>
+                    </a>
+                    <a href="https://audiomack.com/spontaneousdj"><img src="./images/34286d8d-59d8-4e48-90ad-4e0852fbcb36.svg" alt=""></a>
+                    <a href="https://www.tiktok.com/@asapthedj"><img src="./images/tiktok.svg" alt=""></a>
+                    <a href="https://www.facebook.com/asapthedj"><img src="./images/facebook.svg" alt=""></a>
+                    <a href="https://www.instagram.com/asapthedj?igsh=ZGdibnpnZGlvb29t"><img src="./images/instagram.svg" alt=""></a>
+                    <a href="https://www.twitter.com/asapthedj"><img src="./images/twitter-x.svg" alt=""></a>
+                    <a href="https://www.youtube.com/@ASAPtheDJ"><img src="./images/youtube.svg" alt=""></a>
+                    <a href="https://open.spotify.com/artist/1UwryqXPqCSi59wp2A9yqs?si=CIe0JvPlS8G_W88fTdFn-w"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="white" class="bi bi-spotify" viewBox="0 0 16 16">
+                        <path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0m3.669 11.538a.5.5 0 0 1-.686.165c-1.879-1.147-4.243-1.407-7.028-.77a.499.499 0 0 1-.222-.973c3.048-.696 5.662-.397 7.77.892a.5.5 0 0 1 .166.686m.979-2.178a.624.624 0 0 1-.858.205c-2.15-1.321-5.428-1.704-7.972-.932a.625.625 0 0 1-.362-1.194c2.905-.881 6.517-.454 8.986 1.063a.624.624 0 0 1 .206.858m.084-2.268C10.154 5.56 5.9 5.419 3.438 6.166a.748.748 0 1 1-.434-1.432c2.825-.857 7.523-.692 10.492 1.07a.747.747 0 1 1-.764 1.288"/>
+                      </svg>
+                    </a>
+                </div>
+            </div>
+            <div class="search">
+                <h3>SUBSCRIBE</h3>
+                <input type="text" placeholder="Type your email address">
+            </div>
+
+            
+            
+        </div>
+        <div class="sm-none">
+            &copy; ASAP THE DJ ALL RIGHTS RESERVED
+        </div>
+    </footer>
+
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    
+
+
+
+
+    
+    
+    
+    
+    
+    
+    
+</body>
+</html>

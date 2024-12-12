@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="google-site-verification" content="sY4r1PjZrxTAkPFUbUp4YrajviC9rxXhtPUAexluXW0" />
+    <meta name="description" content="ASAP THE DJ official website. Visit for the latest news, tour dates, browse the photo gallery, listen to ASAP THE DJ's music and watch videos.">
+    <meta name="keywords" content="ASAP THE DJ, ASAPTHEDJ, DJ ASAP, ASAP THE DJ, ASAP THE DJ MUSIC, asap the dj, asapthe dj">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./images/favicon-16x16.png" type="image/x-icon">
+    <title>ASAP THE DJ | INTERNATIONAL DJ</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.cs" /> 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet"> 
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<link rel="stylesheet" href="style.css">
+<script src="script.js" defer></script>
+</head>
+<body>
+    <div class="navigator flex container fixe">
+        <div class="main-logo" data-aos="fade-right" data-aos-duration="4000">
+            <a href="index.html"><img class="logo-record" src="./images/ASAP logo.png" alt=""></a>
+        </div>
+
+        <div class="dividerule flex">
+            <div class="extra-btn" data-aos="fade-right" data-aos-duration="4000">
+                <audio id="audio" src="./images/Dj_Asap.mp3"></audio>
+                <button id="playpause" class="slider-sm play-btn" onclick="playPause();">PLAY &#9658;</button>
+            </div>
+
+            <div class="mobile-toggle button-three dont" aria-controls="primary-navigation" aria-expanded="false" data-aos="fade-left" data-aos-duration="4000">
+                <svg stroke="#ffffff" fill="none" class="hamburger" viewBox="-10 -10 100 100" width="55">
+                    <path class="line" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" d="m 20 40 h 60 a 1 1 0 0 1 0 20 h -60 a 1 1 0 0 1 0 -40 h 30 v 70">
+                    </path>
+                </svg>
+            </div>
+        </div>
+        <div class="menu" data-visible="false">
+            <div id="nav-item">
+              <ul>
+                    <div class="sm-link flex" data-aos="fade-right" data-aos-duration="4000">
+                        <a href="epk.html"><span>01</span>BIO</a>
+                        <a href="music.html"><span>02</span> MUSIC</a>
+                        <a href="video.html"><span>03</span>VIDEOS</a>
+                        <a href="ticket.html"><span>04</span>BEATS ON THE BLOCK</a>
+                        <a href="https://drive.google.com/file/d/13viXvC1pqif9KuE8fRieiLPqWccugE4c/view?usp=sharing"><span>05</span>MIXTAPE</a>
+                        <!--
+                        <div class="follow-img ">
+                            <a href="https://music.apple.com/us/artist/asapthedj/1705512216">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-music-note-beamed" viewBox="0 0 16 16">
+                                    <path d="M6 13c0 1.105-1.12 2-2.5 2S1 14.105 1 13s1.12-2 2.5-2 2.5.896 2.5 2m9-2c0 1.105-1.12 2-2.5 2s-2.5-.895-2.5-2 1.12-2 2.5-2 2.5.895 2.5 2"/>
+                                    <path fill-rule="evenodd" d="M14 11V2h1v9zM6 3v10H5V3z"/>
+                                    <path d="M5 2.905a1 1 0 0 1 .9-.995l8-.8a1 1 0 0 1 1.1.995V3L5 4z"/>
+                                </svg>
+                            </a>
+                            <a href="https://audiomack.com/spontaneousdj"><img src="./images/34286d8d-59d8-4e48-90ad-4e0852fbcb36.svg" alt=""></a>
+                            <a href="https://www.tiktok.com/@asapthedj"><img src="./images/tiktok.svg" alt=""></a>
+                            <a href="https://www.facebook.com/asapthedj"><img src="./images/facebook.svg" alt=""></a>
+                            <a href="https://www.instagram.com/asapthedj?igsh=ZGdibnpnZGlvb29t"><img src="./images/instagram.svg" alt=""></a>
+                            <a href="https://www.twitter.com/asapthedj"><img src="./images/twitter-x.svg" alt=""></a>
+                            <a href="https://www.youtube.com/@ASAPtheDJ"><img src="./images/youtube.svg" alt=""></a>
+                            <a href="https://open.spotify.com/artist/1UwryqXPqCSi59wp2A9yqs?si=CIe0JvPlS8G_W88fTdFn-w"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="white" class="bi bi-spotify" viewBox="0 0 16 16">
+                                <path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0m3.669 11.538a.5.5 0 0 1-.686.165c-1.879-1.147-4.243-1.407-7.028-.77a.499.499 0 0 1-.222-.973c3.048-.696 5.662-.397 7.77.892a.5.5 0 0 1 .166.686m.979-2.178a.624.624 0 0 1-.858.205c-2.15-1.321-5.428-1.704-7.972-.932a.625.625 0 0 1-.362-1.194c2.905-.881 6.517-.454 8.986 1.063a.624.624 0 0 1 .206.858m.084-2.268C10.154 5.56 5.9 5.419 3.438 6.166a.748.748 0 1 1-.434-1.432c2.825-.857 7.523-.692 10.492 1.07a.747.747 0 1 1-.764 1.288"/>
+                              </svg>
+                            </a>
+                        </div> -->
+                    </div>
+              </ul>
+            </div>
+          </div>
+    </div>
+
+  <!--  <div class="preloader"></div> -->
+
+    <div class="main-slider-video">
+        <video autoplay loop muted class="background-clip sm-vid" src="./images/djasap.mp4"></video>
+        <video autoplay loop muted class="background-clip lg-vid" src="./images/djasap_xY0mDzDD (online-video-cutter.com).mp4"></video>
+    </div>
+
+    <div class="music-divider-sub treasure" data-aos="fade-up" data-aos-duration="2000">
+        <h1 class="music-head" data-text="MUSIC">MUSIC</h1>
+    <div class="music-divider">
+        <div class="music"  data-aos="fade-up" data-aos-duration="2000" data-aos-easing="ease-in-out">
+            <div class="music-img container">
+                <img class="yolo-img" src="./images/yolo.jpeg" alt="">
+            </div>
+            <div class="music-content" data-aos="fade-up" data-aos-duration="2000">
+                <h2>YOLO</h2>
+                <p>ASAP the DJ x Berri Tiga</p>
+                <div class="listen-main">
+                    <a href="soundgenie.fanlink.to/YOLO"><button class="listen">LISTEN</button></a>
+                </div>
+            </div>
+        </div>
+    
+        <div class="music" data-aos="fade-up" data-aos-duration="2000" data-aos-easing="ease-in-out">
+            <div class="music-img container">
+                <img class="yolo-img" src="./images/gbemidebe.png" alt="">
+            </div>
+            <div class="music-content" data-aos="fade-up" data-aos-duration="2000">
+                <h2>GBE MI DEBE</h2>
+                <p>ASAP the DJ x Lil Kesh</p>
+                <div class="listen-main">
+                    <a href="soundgenie.fanlink.to/gbemidebe"><button class="listen">LISTEN</button></a>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <div class="see-more" data-aos="fade-up" data-aos-duration="2000">
+        <a href="music.html"><button>SEE MORE RELEASES</button></a>
+    </div>
+    </div>
+
+    <div class="video-section treasure" data-aos="fade-up" data-aos-duration="2000">
+        <h1 class="music-head" data-text="MUSIC">VIDEOS</h1>
+        <div class="video page-video">
+            <div class="video-link container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/X5RS8AQ6cEA?si=ObW-OuME_mNgGVtg&amp;start=44" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+        </div>
+        <div class="see-more" data-aos="fade-up" data-aos-duration="2000">
+            <a href="video.html"><button>SEE MORE VIDEOS</button></a>
+        </div>
+    </div>
+
+
+    <div class="beat-on-the-block container treasure" data-aos="fade-up" data-aos-duration="2000">
+        <div class="beat-on-the-block-content">
+            <h1>BEATS ON THE BLOCK</h1>
+            <p>
+                DRIFT INTO THE BEATS! Beats on the Block is more than music. It is a Festival that Provides memories with Rhythm and Afro culture.
+            </p>
+            <div class="carousel-inbuilt">
+                <div id="carouselExample" class="carousel slide">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="./images/IMG_3397.JPG" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./images/IMG-20240301-WA0010.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./images/IMG-20240301-WA0012.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./images/IMG-20240301-WA0014.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./images/IMG-20240301-WA0019.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./images/IMG-20240301-WA0026.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./images/IMG-20240301-WA0020.jpg" class="d-block w-100" alt="...">
+                      </div>
+
+                      <div class="carousel-item">
+                        <img src="./images/IMG-20240329-WA0004.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./images/IMG-20240326-WA0027.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./images/IMG-20240326-WA0025.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./images/IMG-20240326-WA0025.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./images/IMG-20240326-WA0018.jpg" class="d-block w-100" alt="...">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+
+            </div>
+
+            <div class="test-a">
+                <a class="center" href="ticket.html"><button class="bb-btn center">BUY TICKET NOW</button></a>
+            </div>
+
+            
+
+            <div class="instagram-feed">
+                <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
+                <div class="elfsight-app-a460386e-c1c1-4eb1-9776-e5761883be2d" data-elfsight-app-lazy></div>
+            </div>
+
+            
+
+            <a class="center" href="ticket.html"><button class="bb-btn center">BUY TICKET NOW</button></a>
+        </div>
+    </div>
+
+    <div class="mixtape container music-divider-sub treasure" data-aos="fade-up" data-aos-duration="2000">
+        <h1 class="music-head" data-text="MUSIC">MY MIXTAPE</h1>
+        <div class="mixtape-content">
+            <a class="mix-link" href="https://drive.google.com/file/d/13viXvC1pqif9KuE8fRieiLPqWccugE4c/view?usp=sharing">   
+                <div class="mix-img">
+                    <img class="mix-tape-img" src="./images/mix.png" alt="">
+                    <img class="mix-play" src="./images/play-circle-fill.svg" alt="">
+                </div>
+            </a>
+        </div>
+    </div>
+
+    
+
+
+    <footer class="footer-header">
+        <div class="footer container" data-aos="fade-down" data-aos-duration="4000">
+           
+            <div class="no-option">
+                <div class="link">
+                    <h3>LINKS</h3>
+                    <a href="epk.html">BIO</a>
+                    <a href="music.html">MUSIC</a>
+                    <a href="video.html">VIDEOS</a>
+                    <a href="ticket.html">BEATS ON THE BLOCK</a>
+                    <a href="#">SHOP</a>
+                </div>
+                <div class="follow-img flex">
+                    <a href="https://music.apple.com/us/artist/asapthedj/1705512216">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-music-note-beamed" viewBox="0 0 16 16">
+                            <path d="M6 13c0 1.105-1.12 2-2.5 2S1 14.105 1 13s1.12-2 2.5-2 2.5.896 2.5 2m9-2c0 1.105-1.12 2-2.5 2s-2.5-.895-2.5-2 1.12-2 2.5-2 2.5.895 2.5 2"/>
+                            <path fill-rule="evenodd" d="M14 11V2h1v9zM6 3v10H5V3z"/>
+                            <path d="M5 2.905a1 1 0 0 1 .9-.995l8-.8a1 1 0 0 1 1.1.995V3L5 4z"/>
+                        </svg>
+                    </a>
+                    <a href="https://audiomack.com/spontaneousdj"><img src="./images/34286d8d-59d8-4e48-90ad-4e0852fbcb36.svg" alt=""></a>
+                    <a href="https://www.tiktok.com/@asapthedj"><img src="./images/tiktok.svg" alt=""></a>
+                    <a href="https://www.facebook.com/asapthedj"><img src="./images/facebook.svg" alt=""></a>
+                    <a href="https://www.instagram.com/asapthedj?igsh=ZGdibnpnZGlvb29t"><img src="./images/instagram.svg" alt=""></a>
+                    <a href="https://www.twitter.com/asapthedj"><img src="./images/twitter-x.svg" alt=""></a>
+                    <a href="https://www.youtube.com/@ASAPtheDJ"><img src="./images/youtube.svg" alt=""></a>
+                    <a href="https://open.spotify.com/artist/1UwryqXPqCSi59wp2A9yqs?si=CIe0JvPlS8G_W88fTdFn-w"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="white" class="bi bi-spotify" viewBox="0 0 16 16">
+                        <path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0m3.669 11.538a.5.5 0 0 1-.686.165c-1.879-1.147-4.243-1.407-7.028-.77a.499.499 0 0 1-.222-.973c3.048-.696 5.662-.397 7.77.892a.5.5 0 0 1 .166.686m.979-2.178a.624.624 0 0 1-.858.205c-2.15-1.321-5.428-1.704-7.972-.932a.625.625 0 0 1-.362-1.194c2.905-.881 6.517-.454 8.986 1.063a.624.624 0 0 1 .206.858m.084-2.268C10.154 5.56 5.9 5.419 3.438 6.166a.748.748 0 1 1-.434-1.432c2.825-.857 7.523-.692 10.492 1.07a.747.747 0 1 1-.764 1.288"/>
+                      </svg>
+                    </a>
+                </div>
+            </div>
+            <div class="search">
+                <h3>SUBSCRIBE</h3>
+                <input type="text" placeholder="Type your email address">
+            </div>
+
+            
+            
+        </div>
+        <div class="sm-none">
+            &copy; ASAP THE DJ ALL RIGHTS RESERVED
+        </div>
+    </footer>
+
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    
+</body>
+</html>
